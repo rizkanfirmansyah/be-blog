@@ -1,0 +1,31 @@
+Standar API
+
+{root.api}/{version}/{grouping}/{endpoint}
+SAMPLE :
+http://api.rizkanfirmansyah.com/v1/auth/login
+
+GROUP : Authentication
+
+[1] - ]Register
+{root.api}/{version}/auth/register
+
+req : 
+{
+    "name" : "testing",
+    "email" :"test@gmail.com",
+    "password" : "123123"
+}
+
+[2] - Login
+{root.api}/{version}/auth/login
+
+req : {
+
+}
+
+GROUP : BLOG
+
+[1] - Create Blog Post
+[2] - Get Blog Post
+[3] - Update Blog Post
+[4] - Delete Blog Post
